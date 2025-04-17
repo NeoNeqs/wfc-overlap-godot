@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://b8ymmwu44gupi"]
+
+[ext_resource type="Script" uid="uid://bj8yhf4gmla85" path="res://canvas.gd" id="1_75aqd"]
+[ext_resource type="Texture2D" uid="uid://cjide3dc6wlao" path="res://assets/Flowers.png" id="2_pfdkn"]
+
+[node name="Canvas" type="Control"]
+texture_filter = 2
+layout_mode = 3
+anchors_preset = 0
+offset_right = 400.0
+offset_bottom = 400.0
+script = ExtResource("1_75aqd")
+source_image = ExtResource("2_pfdkn")
+metadata/_edit_vertical_guides_ = [682.0]
